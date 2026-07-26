@@ -7,3 +7,4 @@ nltk
 fuzzywuzzy
 python-Levenshtein
 jupyter
+xgboost
