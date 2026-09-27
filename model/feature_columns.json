@@ -1,0 +1,30 @@
+{
+  "feature_cols": [
+    "q1_len",
+    "q2_len",
+    "q1_num_words",
+    "q2_num_words",
+    "word_common",
+    "word_total",
+    "word_share",
+    "cwc_min",
+    "cwc_max",
+    "csc_min",
+    "csc_max",
+    "ctc_min",
+    "ctc_max",
+    "last_word_eq",
+    "first_word_eq",
+    "abs_len_diff",
+    "mean_len",
+    "longest_substr_ratio",
+    "fuzz_ratio",
+    "fuzz_partial_ratio",
+    "token_sort_ratio",
+    "token_set_ratio",
+    "semantic_sim"
+  ],
+  "best_model": "XGBoost",
+  "used_semantic": true,
+  "requires_dense": false
+}
