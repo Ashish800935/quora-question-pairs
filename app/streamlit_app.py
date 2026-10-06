@@ -6,6 +6,9 @@ Run:
 """
 import streamlit as st
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.predict import get_predictor
 
 st.set_page_config(page_title="Quora Duplicate Question Detector", page_icon="🔎")
